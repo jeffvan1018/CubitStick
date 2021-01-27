@@ -3,9 +3,9 @@ using System.ComponentModel;
 
 namespace CubitStick
 {
-    public class MeasurementViewModel : INotifyPropertyChanged
+    public class MeasurementPageViewModel : INotifyPropertyChanged
     {
-        public MeasurementViewModel()
+        public MeasurementPageViewModel()
         {
         }
 

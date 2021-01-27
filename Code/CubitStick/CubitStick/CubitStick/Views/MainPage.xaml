@@ -11,16 +11,10 @@
         <local:MainPageViewModel />
     </ContentPage.BindingContext>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
-        <Label Grid.Column="0" Grid.Row="0" Text="Cubit Stick" FontSize="Title" Margin="10" />
-    </Grid>
+    <StackLayout>
+        <Label FontSize="Title" Text="Cubit Stick" />
+        <Button Text="Settings" Command="{Binding SettingsCommand}" />
+    </StackLayout>
    
    
 </ContentPage>
